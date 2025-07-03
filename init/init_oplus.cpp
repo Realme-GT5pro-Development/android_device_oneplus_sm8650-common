@@ -78,6 +78,11 @@ void vendor_load_properties() {
                     hw_region_id == NV_ID_IN ? "CPH2573" :
                     hw_region_id == NV_ID_US ? "CPH2583" : "CPH2581");
             break;
+        case 23607:  // enzo CN
+            OverrideProperty("ro.product.device", "RE5C37");
+            OverrideProperty("ro.product.vendor.device", "RE5C37");
+            OverrideProperty("ro.product.product.model", "RMX3888");
+            break;
         default:
             LOG(ERROR) << "Unexpected prjname: " << prjname;
     }

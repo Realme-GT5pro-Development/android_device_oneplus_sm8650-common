@@ -55,7 +55,6 @@ lib_fixups: lib_fixups_user_type = {
         'vendor.pixelworks.hardware.display@1.0',
         'vendor.pixelworks.hardware.display@1.1',
         'vendor.pixelworks.hardware.display@1.2',
-        'vendor.pixelworks.hardware.feature-V1-ndk',
         'vendor.pixelworks.hardware.feature@1.0',
         'vendor.pixelworks.hardware.feature@1.1',
         'vendor.qti.ImsRtpService-V1-ndk',
@@ -108,8 +107,6 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('remote_register_buf'),
     'vendor/lib64/libcwb_qcom_aidl.so': blob_fixup()
         .add_needed('libui_shim.so'),
-    'product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml': blob_fixup()
-        .regex_replace('/my_product', '/product'),
     'system_ext/bin/wfdservice64': blob_fixup()
         .add_needed('libwfdservice_shim.so'),
     'system_ext/lib64/libwfdnative.so': blob_fixup()
