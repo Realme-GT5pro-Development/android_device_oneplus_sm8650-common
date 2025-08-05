@@ -109,7 +109,7 @@
         </string-array>
         <boolean name="allow_ut_when_wifi_on_bool" value="true" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <boolean name="vonr_setting_visibility_bool" value="false" />
+        <boolean name="vonr_setting_visibility_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="204" mnc="16">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -301,7 +301,7 @@
         <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <boolean name="carrier_wfc_supports_ims_preferred_bool" value="true" />
         <boolean name="vonr_enabled_bool" value="true" />
-        <boolean name="vonr_setting_visibility_bool" value="false" />
+        <boolean name="vonr_setting_visibility_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="232" mnc="07">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -324,7 +324,7 @@
         <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <boolean name="carrier_wfc_supports_ims_preferred_bool" value="true" />
         <boolean name="vonr_enabled_bool" value="true" />
-        <boolean name="vonr_setting_visibility_bool" value="false" />
+        <boolean name="vonr_setting_visibility_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="233" mnc="02">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -1477,7 +1477,7 @@
         <boolean name="carrier_data_channel_supported_bool" value="true" />
         <boolean name="carrier_video_online_service_supported_bool" value="true" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <boolean name="vonr_setting_visibility_bool" value="false" />
+        <boolean name="vonr_setting_visibility_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="460" mnc="01">
         <boolean name="notify_video_call_failed" value="true" />
@@ -1584,7 +1584,7 @@
         <boolean name="carrier_data_channel_supported_bool" value="true" />
         <boolean name="carrier_video_online_service_supported_bool" value="true" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <boolean name="vonr_setting_visibility_bool" value="false" />
+        <boolean name="vonr_setting_visibility_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="460" mnc="03">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -1636,7 +1636,7 @@
         <boolean name="carrier_data_channel_supported_bool" value="true" />
         <boolean name="allow_ut_when_wifi_on_bool" value="true" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <boolean name="vonr_setting_visibility_bool" value="false" />
+        <boolean name="vonr_setting_visibility_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="460" mnc="04">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -1704,7 +1704,7 @@
         <boolean name="carrier_data_channel_supported_bool" value="true" />
         <boolean name="carrier_video_online_service_supported_bool" value="true" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <boolean name="vonr_setting_visibility_bool" value="false" />
+        <boolean name="vonr_setting_visibility_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="460" mnc="05">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -1733,7 +1733,7 @@
         <boolean name="allow_ut_when_wifi_on_bool" value="true" />
         <boolean name="disable_supplementary_services_in_airplane_mode_bool" value="true" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <boolean name="vonr_setting_visibility_bool" value="false" />
+        <boolean name="vonr_setting_visibility_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="460" mnc="06">
         <boolean name="notify_video_call_failed" value="true" />
@@ -1832,7 +1832,7 @@
         <boolean name="carrier_data_channel_supported_bool" value="true" />
         <boolean name="carrier_video_online_service_supported_bool" value="true" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <boolean name="vonr_setting_visibility_bool" value="false" />
+        <boolean name="vonr_setting_visibility_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="460" mnc="08">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -1898,7 +1898,7 @@
         <boolean name="carrier_data_channel_supported_bool" value="true" />
         <boolean name="carrier_video_online_service_supported_bool" value="true" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <boolean name="vonr_setting_visibility_bool" value="false" />
+        <boolean name="vonr_setting_visibility_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="460" mnc="09">
         <boolean name="notify_video_call_failed" value="true" />
@@ -1993,7 +1993,7 @@
         <boolean name="carrier_data_channel_supported_bool" value="true" />
         <boolean name="allow_ut_when_wifi_on_bool" value="true" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <boolean name="vonr_setting_visibility_bool" value="false" />
+        <boolean name="vonr_setting_visibility_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="460" mnc="12">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -2033,7 +2033,7 @@
         <boolean name="carrier_data_channel_supported_bool" value="true" />
         <boolean name="allow_ut_when_wifi_on_bool" value="true" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <boolean name="vonr_setting_visibility_bool" value="false" />
+        <boolean name="vonr_setting_visibility_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="460" mnc="13">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -2101,7 +2101,7 @@
         <boolean name="carrier_data_channel_supported_bool" value="true" />
         <boolean name="carrier_video_online_service_supported_bool" value="true" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <boolean name="vonr_setting_visibility_bool" value="false" />
+        <boolean name="vonr_setting_visibility_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="460" mnc="15">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -2163,7 +2163,7 @@
         </int-array>
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
         <boolean name="vonr_enabled_bool" value="true" />
-        <boolean name="vonr_setting_visibility_bool" value="false" />
+        <boolean name="vonr_setting_visibility_bool" value="true" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="310" mnc="00">
