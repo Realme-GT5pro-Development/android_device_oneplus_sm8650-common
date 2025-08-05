@@ -3135,6 +3135,7 @@ vendor/etc/sensors/config/sns_wrist_pedo.json
 vendor/etc/sensors/sns_reg_config
 
 # Soter
+system_ext/app/SoterService/SoterService.apk
 vendor/bin/hw/vendor.qti.hardware.soter-service
 vendor/bin/vendor.qti.hardware.soter-provision
 vendor/etc/init/vendor.qti.hardware.soter-service.rc
