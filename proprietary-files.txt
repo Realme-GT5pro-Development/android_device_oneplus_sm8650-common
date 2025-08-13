@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from Realme GT5 Pro (RMX3888_15.0.0.830(CN01)).
+## are from Realme GT5 Pro (RMX3888_15.0.0.841(CN01)).
 
 # Current blobs with ELF checks disabled:
 # audio.primary.pineapple depends on liblx-osal and vendor.qti.hardware.AGMIPC@1.0-impl, which are gnu makefile targets
@@ -2171,10 +2171,10 @@ vendor/lib64/libhdcpsrm.so
 vendor/lib64/libmm-hdcpmgr.so
 
 # Hotword Enrollment - from OnePlus 12 CPH2581_15.0.0.820(EX01)
-my_product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml:product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml|dce101edaf6acb2e6384be094f743bf95a346a3d
-my_product/framework/com.android.hotwordenrollment.common.util.jar:product/framework/com.android.hotwordenrollment.common.util.jar|2f9d61fcdbc33058e8a514b4b5a559d314bbabaf
-my_product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk:product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk|e37e5c51144d700b37627c907541b2d8b23e085a
-my_product/priv-app/HotwordEnrollmentYGoogleHEXAGON_WIDEBAND.apk:product/priv-app/HotwordEnrollmentYGoogleHEXAGON_WIDEBAND.apk|eb9b3c74fd190c2326a341e315461634b3d83490
+product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml|dce101edaf6acb2e6384be094f743bf95a346a3d
+product/framework/com.android.hotwordenrollment.common.util.jar|2f9d61fcdbc33058e8a514b4b5a559d314bbabaf
+product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk|e37e5c51144d700b37627c907541b2d8b23e085a
+product/priv-app/HotwordEnrollmentYGoogleHEXAGON_WIDEBAND.apk|eb9b3c74fd190c2326a341e315461634b3d83490
 
 # IMS
 system_ext/app/ImsDataChannelService/ImsDataChannelService.apk
